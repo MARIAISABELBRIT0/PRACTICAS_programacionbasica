@@ -37,5 +37,8 @@ def buscar_avion(numero_registro):
 # Solicitar al usuario el número de registro y buscar el avión
 numero_registro = input("Ingrese el número de registro del aeronave: ")
 buscar_avion(numero_registro)
+
+
+
  
  

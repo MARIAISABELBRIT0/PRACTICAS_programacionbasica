@@ -13,7 +13,7 @@ a) Calcula la altitud promedio durante el vuelo.
 
 b) Determina el intervalo de tiempo en el que se alcanzó la **velocidad máxima**.
 """
-"""
+
 import random
 
 def valores_aleatorios ():
@@ -69,4 +69,3 @@ print(f"\nAltitud promedio durante el vuelo: {altitud_promedio:.2f} metros")
 intervalo_velocidad_maxima, velocidad_maxima = encontrar_velocidad_maxima(matriz_vuelo)
 print(f"Velocidad máxima de {velocidad_maxima:.2f} km/h alcanzada en el intervalo {intervalo_velocidad_maxima + 1}")
 
-"""
